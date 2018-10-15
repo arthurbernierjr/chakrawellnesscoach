@@ -122,7 +122,7 @@ class ProductPage extends React.Component {
                 </GridItem>
                 <GridItem md={6} sm={6}>
                   <h2 className={classes.title}>Be Your Own Spiritual Nurse</h2>
-                  <h3 className={classes.mainPrice}>$17</h3>
+                  <h3 className={classes.mainPrice}>$17.95</h3>
                   <Accordion
                     active={0}
                     activeColor="rose"
@@ -138,12 +138,15 @@ class ProductPage extends React.Component {
                     ]}
                   />
                   <GridContainer className={classes.pickSize}>
-                    
+
                   </GridContainer>
                   <GridContainer className={classes.pullRight}>
+                    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MGJNADEPX2MAW
+">
                     <Button round color="rose">
                       Buy Now &nbsp; <ShoppingCart />
                     </Button>
+                    </a>
                   </GridContainer>
                 </GridItem>
               </GridContainer>

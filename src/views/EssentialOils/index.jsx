@@ -32,7 +32,7 @@ class EssentialOils extends React.Component {
     return (
       <div>
         <Header
-          brand="Trusy Dintzner"
+          brand="Trudy Dintzner"
           links={<HeaderLinks dropdownHoverColor="info" />}
           fixed
           color="transparent"
@@ -74,7 +74,7 @@ class EssentialOils extends React.Component {
                       href="/"
                       className={classes.block}
                     >
-                      Trudy Ditzner
+                      Trudy Dintzner
                     </a>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>

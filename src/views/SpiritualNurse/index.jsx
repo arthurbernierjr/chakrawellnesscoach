@@ -75,7 +75,7 @@ class SpiritualNurse extends React.Component {
                       href="/"
                       className={classes.block}
                     >
-                      Trudy Ditzner
+                      Trudy Dintzner
                     </a>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
