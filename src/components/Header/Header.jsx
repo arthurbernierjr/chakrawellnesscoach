@@ -86,7 +86,7 @@ class Header extends React.Component {
       <AppBar style={{zIndex:7}}className={appBarClasses}>
         <Toolbar className={classes.container}>
           <Button className={classes.title}>
-            <Link to="/"><span className="navbar-brand title disabled yourbook-logo"><i className="fa fa-user-md" aria-hidden="true"></i> {brand} <span className="developers-text ">PhD,RN</span></span></Link>
+            <Link to="/"><span className="navbar-brand title disabled"><i className="fa fa-user-md" aria-hidden="true"></i> {brand} <span className="developers-text ">PhD,RN</span></span></Link>
           </Button>
           <Hidden smDown implementation="css" className={classes.hidden}>
             <div className={classes.collapse}>{links}</div>
