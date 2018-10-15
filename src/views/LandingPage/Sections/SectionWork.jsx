@@ -21,12 +21,9 @@ class SectionWork extends React.Component {
       <div className={classes.section}>
         <GridContainer justify="center">
           <GridItem cs={12} sm={8} md={8}>
-            <h2 className={classes.title}>Work with us</h2>
+            <h2 className={classes.title}>Get On The Pre-Order List</h2>
             <h4 className={classes.description}>
-              Divide details about your product or agency work into parts. Write
-              a few lines about each one and contact us about any further
-              collaboration. We will responde get back to you in a couple of
-              hours.
+              Pre Order Your Copy of "Be Your Own Spiritual Nurse" and get a free gift for being a part of our family.
             </h4>
             <form method="POST" action="https://progressandfortune.com/trudy/assets/contact-form-handler.php">
               <GridContainer>
