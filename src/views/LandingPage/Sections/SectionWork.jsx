@@ -25,12 +25,13 @@ class SectionWork extends React.Component {
             <h4 className={classes.description}>
               Pre Order Your Copy of <em>Be Your Own Spiritual Nurse</em> and get a free gift for being a part of our family.
             </h4>
-            <form method="POST" action="https://progressandfortune.com/trudy/assets/contact-form-handler.php">
+            <form method="post" action="https://progressandfortune.com/trudy/assets/contact-form-handler.php">
               <GridContainer>
                 <GridItem xs={12} sm={6} md={6}>
                   <CustomInput
                     labelText="Your Name"
                     id="name"
+                    name="name"
                     formControlProps={{
                       fullWidth: true
                     }}
@@ -40,6 +41,7 @@ class SectionWork extends React.Component {
                   <CustomInput
                     labelText="Your Email"
                     id="email"
+                    name="email"
                     formControlProps={{
                       fullWidth: true
                     }}
@@ -48,6 +50,7 @@ class SectionWork extends React.Component {
                 <CustomInput
                   labelText="Your Message"
                   id="message"
+                  name="message"
                   formControlProps={{
                     fullWidth: true,
                     className: classes.textArea
