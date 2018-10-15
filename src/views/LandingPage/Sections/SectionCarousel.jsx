@@ -15,11 +15,11 @@ import GridItem from "components/Grid/GridItem.jsx";
 
 import headersStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/headersStyle.jsx";
 
-import bg12 from "assets/img/bg12.jpg";
-import office2 from "assets/img/examples/office2.jpg";
-import dg1 from "assets/img/dg1.jpg";
-import dg2 from "assets/img/dg2.jpg";
-import dg3 from "assets/img/dg3.jpg";
+import bg12 from "assets/img/main-imgs/heal4.jpg";
+import office2 from "assets/img/main-imgs/heal5.jpg";
+import dg1 from "assets/img/main-imgs/heal1.jpg";
+import dg2 from "assets/img/main-imgs/heal2.jpg";
+import dg3 from "assets/img/main-imgs/heal3.jpg";
 
 function SectionCarousel({ ...props
 }) {

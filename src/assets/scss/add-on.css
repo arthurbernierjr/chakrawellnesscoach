@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 .newsletter-subscribe{
     z-index: 7;
     border-radius: 6px;
@@ -22,7 +23,7 @@ free-report
 }
 .yourbook-logo{
     font-family: 'Oswald', sans-serif;
-    font-size: 3.2rem;
+    font-size: 1.2rem;
 }
 .developers-text{
     font-family: 'Dancing Script', cursive;

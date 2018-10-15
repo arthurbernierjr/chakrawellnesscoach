@@ -44,13 +44,14 @@ class SpiritualNurse extends React.Component {
             <GridContainer justify="center">
               <GridItem md={8} className={classes.textCenter}>
                 <h1 className={classes.title}>
-                  Would you like to be more… Energetic,
-                                             Happy,
-                                             Comfortable,
-                                             Tolerant,
-                                             Loving,
-                                             Thin
+                  Would you like to be more…
                 </h1>
+                <h4>Energetic,
+                                           Happy,
+                                           Comfortable,
+                                           Tolerant,
+                                           Loving,
+                                           Thin</h4>
                 <br />
                 <Button color="primary" size="lg" round>
                   <FormatAlignLeft /> Learn More

@@ -57,9 +57,9 @@ class LandingPage extends React.Component {
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={6} md={6}>
-                <h1 className={classes.title}>Welcome and Greetings.</h1>
+                <h2 className={classes.title}>Welcome to ChakraWellnessCoach.COM</h2>
                 <h4>
-                   You are in the right healing place if you want to know more about: my book, my special coaching, and to learn about healing essential oils that can change your Life... <br/>Just keep reading.........
+                   Greetings...You are in the right healing place if you want to know more about: my book, my special coaching, and to learn about healing essential oils that can change your Life... <br/>Just keep reading.........
                 </h4>
                 <br />
                 <LbButton />

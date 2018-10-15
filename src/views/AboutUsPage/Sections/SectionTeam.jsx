@@ -19,6 +19,11 @@ import blog1 from "assets/img/main-imgs/banner1.png";
 
 function SectionTeam(props) {
   const { classes } = props;
+  const imgClasses = classNames(
+    classes.imgRaised,
+    classes.imgRounded,
+    classes.imgFluid
+  );
   return (
     <div className={classes.team}>
       <GridContainer>
@@ -52,11 +57,7 @@ function SectionTeam(props) {
             </CardBody>
           </Card>
         </GridItem>
-        <GridItem xs={12} sm={12} md={12}>
-          <a href="/e-commerce">
-          <img src={blog1} alt="..."  />
-        </a>
-        </GridItem>
+
       </GridContainer>
     </div>
   );
