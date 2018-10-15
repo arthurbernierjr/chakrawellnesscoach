@@ -1,0 +1,46 @@
+.newsletter-subscribe{
+    z-index: 7;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px 2px rgba(230, 230, 250, 0.14), 0 6px 30px 5px rgba(230, 230, 250, 0.88), 0 8px 10px -5px rgba(230, 230, 250, 0.6);
+    background: #FFFFFF;
+    position: relative;
+    margin-bottom: 5%;
+    font-family: 'Oswald', sans-serif;
+}
+.sexy-type{
+    font-family: 'Dancing Script', cursive;
+}
+.free-report-title{
+    text-shadow: 8px 3px rgba(225, 190, 231, 0.56);
+         color: #ffa500;
+
+}
+free-report
+{
+    max-height: 8rem;
+    max-width: 8rem;
+}
+.yourbook-logo{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.2rem;
+}
+.developers-text{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+}
+
+
+@media screen and (max-width: 768px) {
+    .yourbook-logo{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+}
+.developers-text{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1em;
+}
+    .overflow-head{
+         word-break: break-all;
+    }
+
+}
