@@ -81,7 +81,7 @@ class ProductPage extends React.Component {
       }
     ];
     return (
-      <StripeProvider>
+
       <div className={classes.productPage}>
         <Header
           brand="Trudy Dintzner"
@@ -138,7 +138,7 @@ class ProductPage extends React.Component {
                     ]}
                   />
                   <GridContainer className={classes.pickSize}>
-                    <Elements><CheckoutForm/></Elements>
+                    
                   </GridContainer>
                   <GridContainer className={classes.pullRight}>
                     <Button round color="rose">
@@ -162,7 +162,7 @@ class ProductPage extends React.Component {
                       href="/"
                       className={classes.block}
                     >
-                      Trudy Ditzner
+                      Trudy Dintzner
                     </a>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
@@ -198,7 +198,7 @@ class ProductPage extends React.Component {
           }
         />
       </div>
-    </StripeProvider>
+
     );
   }
 }
