@@ -32,8 +32,8 @@ import contactUsStyle from "assets/jss/material-kit-pro-react/views/contactUsSty
 const CustomSkinMap = withScriptjs(
   withGoogleMap(props => (
     <GoogleMap
-      defaultZoom={14}
-      defaultCenter={{ lat: 44.43353, lng: 26.093928 }}
+      defaultZoom={10}
+      defaultCenter={{ lat: 26.64, lng: -81.87 }}
       defaultOptions={{
         scrollwheel: false,
         zoomControl: true,
@@ -99,7 +99,7 @@ const CustomSkinMap = withScriptjs(
         ]
       }}
     >
-      <Marker position={{ lat: 44.43353, lng: 26.093928 }} />
+      <Marker position={{ lat: 26.64353, lng: -81.873928 }} />
     </GoogleMap>
   ))
 );
@@ -114,14 +114,14 @@ class ContactUsPage extends React.Component {
     return (
       <div>
         <Header
-          brand="Material Kit PRO React"
+          brand="Trudy Dintzner"
           links={<HeaderLinks dropdownHoverColor="dark" />}
           fixed
           color="dark"
         />
         <div className={classes.bigMap}>
           <CustomSkinMap
-            googleMapURL="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"
+            googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyAh9s0vi2SVmoC5S9B67Q0d-xoL43p4QRE"
             loadingElement={<div style={{ height: `100%` }} />}
             containerElement={
               <div
@@ -138,16 +138,16 @@ class ContactUsPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.contactContent}>
             <div className={classes.container}>
-              <h2 className={classes.title}>Send us a message</h2>
+              <h2 className={classes.title}>We Would Love To Hear From You</h2>
               <GridContainer>
                 <GridItem md={6} sm={6}>
                   <p>
-                    You can contact us with anything related to our Products.
+                    Contact us by any means listed on this page.
                     We'll get in touch with you as soon as possible.
                     <br />
                     <br />
                   </p>
-                  <form>
+                  {/* <form>
                     <CustomInput
                       labelText="Your Name"
                       id="float"
@@ -185,40 +185,61 @@ class ContactUsPage extends React.Component {
                         Contact us
                       </Button>
                     </div>
+                  </form> */}
+                  <form className="form-group newsletter-subscribe" role="form" id="contact" name="contactform" method="post" action="https://progressandfortune.com/trudy/assets/contact-form-2.php">
+                  <GridContainer justify="center">
+                    <GridItem cs={12} sm={8} md={8}>
+                      <h2 className={classes.title}>Send Trudy A Message</h2>
+                      <h4 className={classes.description}>
+                        Trudy would love to hear from you. For any reason.
+If could be about her private coaching, to find out about her starting your own business from home with DoTerra essential oils, purchasing DoTerra Oils for your own potential health enhancement, setting up a live speaking engagement, more about her book, or any other reason.
+You can use the form on this page or if you prefer you can send a direct email here. Trudy should get back to you within 48 hours.
+                      </h4>
+          <fieldset>
+            <input placeholder="Your name" name="name"type="text" tabindex="1" required autofocus/>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" name="email"type="email" tabindex="2" required/>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Type your message here...." name="message" tabindex="5" required></textarea>
+          </fieldset>
+                                    <div className={classes.textCenter}>
+                                      <Button type="submit"color="primary" round>
+                                        Contact us
+                                      </Button>
+                                    </div>
+                                    {/* <input  className="btn btn-primary btn-raised btn-round" value="Contact Us" /> */}
+
+                    </GridItem>
+                  </GridContainer>
                   </form>
                 </GridItem>
                 <GridItem md={4} sm={4} className={classes.mlAuto}>
                   <InfoArea
                     className={classes.info}
-                    title="Find us at the office"
+                    title="Start enhancing your health today with pure, potent, and natural essential oils."
                     description={
                       <p>
-                        Bld Mihail Kogalniceanu, nr. 8, <br /> 7652 Bucharest,{" "}
-                        <br /> Romania
-                      </p>
-                    }
-                    icon={PinDrop}
-                    iconColor="primary"
-                  />
-                  <InfoArea
-                    className={classes.info}
-                    title="Give us a ring"
-                    description={
-                      <p>
-                        Michael Jordan <br /> +40 762 321 762 <br /> Mon - Fri,
-                        8:00-22:00
-                      </p>
-                    }
-                    icon={Phone}
-                    iconColor="primary"
-                  />
-                  <InfoArea
-                    className={classes.info}
-                    title="Legal Information"
-                    description={
-                      <p>
-                        Creative Tim Ltd. <br /> VAT · EN2341241 <br /> IBAN ·
-                        EN8732ENGB2300099123 <br /> Bank · Great Britain Bank
+                        Be empowered to take control of your well-being on the physical, mental, emotional, spiritual, and financial levels.  Whether you deal with any issues or just want to be healthier, there is an oil for that!!  Be free of harmful chemicals by replacing the contents of your medicine cabinet as well as your cleaning cabinet with essential oil products.
+                        <hr/><br/>
+                        Learn More at doTerra at
+
+                        <a href="my.doterra.com/trudyd">
+                        <Button color="warning">
+                           my.doterra.com/trudyd
+                        </Button>
+                        </a><br/>
+                        {' '}Or{' '}<hr/><br/>
+                        get CTFO CBD oil here at
+                          <a href="http://trudyd.MyCTFOCBD.com">
+                          <Button color="danger">
+                             trudyd.MyCTFOCBD.com
+                          </Button>
+                          </a>
+                          <hr/><br/> And Get A Copy Of
+                          <a href="/e-commerce">
+                          <Button size="lg" fullWidth color="success">"Be Your Own Spiritual Nurse"</Button></a>
                       </p>
                     }
                     icon={BusinessCenter}
@@ -230,21 +251,22 @@ class ContactUsPage extends React.Component {
           </div>
         </div>
         <Footer
+          // theme="dark"
           content={
             <div>
               <div className={classes.left}>
                 <List className={classes.list}>
                   <ListItem className={classes.inlineBlock}>
                     <a
-                      href="https://www.creative-tim.com/"
+                      href="/"
                       className={classes.block}
                     >
-                      Creative Tim
+                      Trudy Dintzner
                     </a>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
                     <a
-                      href="https://www.creative-tim.com/presentation"
+                      href="/about-us"
                       className={classes.block}
                     >
                       About us
@@ -252,27 +274,24 @@ class ContactUsPage extends React.Component {
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
                     <a
-                      href="//blog.creative-tim.com/"
+                      href="/contact-us"
                       className={classes.block}
                     >
-                      Blog
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="https://www.creative-tim.com/license"
-                      className={classes.block}
-                    >
-                      Licenses
+                      Contact Us
                     </a>
                   </ListItem>
                 </List>
               </div>
               <div className={classes.right}>
-                &copy; {1900 + new Date().getYear()} , made with{" "}
+                  <span dangerouslySetInnerHTML={{__html: '&copy;'}} /> {1900 + new Date().getYear()} , made with{" "}
                 <Favorite className={classes.icon} /> by{" "}
-                <a href="https://www.creative-tim.com">Creative Tim</a> for a
-                better web.
+                <a
+                  href="https://www.arthurbernierjr.com"
+                  className={classes.aClasses}
+                >
+                  Arthur Bernier Jr
+                </a>{" "}
+                .
               </div>
             </div>
           }

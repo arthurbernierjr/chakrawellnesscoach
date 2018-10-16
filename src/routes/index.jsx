@@ -41,7 +41,7 @@ var indexRoutes = [
   {
     path: "/contact-us",
     name: "ContactUsPage",
-    component: LandingPage
+    component: ContactUsPage
   },
   {
     path: "/ecommerce-page",

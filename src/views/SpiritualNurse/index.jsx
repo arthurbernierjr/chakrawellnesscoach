@@ -46,7 +46,7 @@ class SpiritualNurse extends React.Component {
                 <h1 className={classes.title}>
                   Would you like to be more…
                 </h1>
-                <h4>Energetic,
+                <h4 className={classes.title}>Energetic,
                                            Happy,
                                            Comfortable,
                                            Tolerant,

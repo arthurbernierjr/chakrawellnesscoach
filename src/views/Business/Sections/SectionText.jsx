@@ -9,10 +9,14 @@ import GridItem from "components/Grid/GridItem.jsx";
 import Quote from "components/Typography/Quote.jsx";
 // core components
 
-import blog4 from "assets/img/examples/blog4.jpg";
+import blog4 from "assets/img/main-imgs/slider2.jpg";
 import blog3 from "assets/img/main-imgs/girl.png";
-import blog1 from "assets/img/examples/blog1.jpg";
+import blog1 from "assets/img/main-imgs/heal1.jpg";
 import banner from "assets/img/main-imgs/banner1.png";
+
+import BusinessCenter from "@material-ui/icons/BusinessCenter";
+import InfoArea from "components/InfoArea/InfoArea.jsx";
+import Button from "components/CustomButtons/Button.jsx";
 
 import sectionTextStyle from "assets/jss/material-kit-pro-react/views/blogPostSections/sectionTextStyle.jsx";
 
@@ -66,11 +70,36 @@ You can also be compensated for sharing.  Everyone can benefit from these produc
           </p>
 
         </GridItem>
-          <h1 className={classes.textCenter}>Click The Book To Get Your Copy ...</h1>
-        <GridItem xs={12} sm={12} md={12}>
-          <a href="/e-commerce">
-          <img src={banner} alt="..." className={imgClasses} />
-        </a>
+        <GridItem md={12} sm={12} className="newsletter-subscribe" style={{marginBottom:"1rem", backgroundColor:"thistle"}}>
+          <InfoArea
+            className={classes.info}
+            title="Start enhancing your health today with pure, potent, and natural essential oils."
+            description={
+              <p>
+                Be empowered to take control of your well-being on the physical, mental, emotional, spiritual, and financial levels.  Whether you deal with any issues or just want to be healthier, there is an oil for that!!  Be free of harmful chemicals by replacing the contents of your medicine cabinet as well as your cleaning cabinet with essential oil products.
+                <hr/><br/>
+                Learn More at doTerra at
+
+                <a href="my.doterra.com/trudyd">
+                <Button color="warning">
+                   my.doterra.com/trudyd
+                </Button>
+                </a><br/>
+                {' '}Or{' '}<hr/><br/>
+                get CTFO CBD oil here at
+                  <a href="http://trudyd.MyCTFOCBD.com">
+                  <Button color="danger">
+                     trudyd.MyCTFOCBD.com
+                  </Button>
+                  </a>
+                  <hr/><br/> And Get A Copy Of
+                  <a href="/e-commerce">
+                  <Button size="lg" fullWidth color="success">"Be Your Own Spiritual Nurse"</Button></a>
+              </p>
+            }
+            icon={BusinessCenter}
+            iconColor="primary"
+          />
         </GridItem>
       </GridContainer>
     </div>

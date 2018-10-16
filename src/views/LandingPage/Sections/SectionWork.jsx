@@ -47,11 +47,11 @@ class SectionWork extends React.Component {
   <input placeholder="Your Email Address" name="email"type="email" tabindex="2" required/>
 </fieldset>
 <fieldset>
-  <textarea placeholder="Type your message here...." name="message" tabindex="5" required></textarea>
+  <textarea placeholder="Any Question You May Have...." name="message" tabindex="5" required></textarea>
 </fieldset>
                           <div className={classes.textCenter}>
                             <Button type="submit"color="primary" round>
-                              Contact us
+                              Get Your Copy Now
                             </Button>
                           </div>
                           {/* <input  className="btn btn-primary btn-raised btn-round" value="Contact Us" /> */}
