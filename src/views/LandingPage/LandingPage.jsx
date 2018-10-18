@@ -69,11 +69,11 @@ class LandingPage extends React.Component {
         </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
-            <SectionWork />
+            {/* <SectionWork /> */}
             <SectionProduct />
           </div>
           <SectionCarousel />
-          <SectionWork />
+          {/* <SectionWork /> */}
         </div>
         <Footer
           // theme="dark"
@@ -86,7 +86,7 @@ class LandingPage extends React.Component {
                       href="/"
                       className={classes.block}
                     >
-                      Trudy Ditzner
+                      Trudy Dintzner
                     </a>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>

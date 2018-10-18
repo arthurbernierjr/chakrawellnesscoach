@@ -148,6 +148,7 @@ function HeaderLinks({ ...props
           ]}
         />
       </ListItem>
+      <a href="/e-commerce">
       <ListItem className={classes.listItem}>
         <Button
           color={window.innerWidth < 960 ? "white" : "primary"}
@@ -159,6 +160,7 @@ function HeaderLinks({ ...props
         </Link>
         </Button>
       </ListItem>
+    </a>
     </List>
   );
 }

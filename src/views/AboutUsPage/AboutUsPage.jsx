@@ -59,7 +59,7 @@ class AboutUsPage extends React.Component {
                   classes.textCenter
                 )}
               >
-                <h1 className={classes.title}>About Trudy Ditzner</h1>
+                <h1 className={classes.title}>About Trudy Dintzner</h1>
               </GridItem>
             </GridContainer>
           </div>

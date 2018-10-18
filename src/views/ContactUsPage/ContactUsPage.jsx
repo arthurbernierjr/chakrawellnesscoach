@@ -192,8 +192,8 @@ class ContactUsPage extends React.Component {
                       <h2 className={classes.title}>Send Trudy A Message</h2>
                       <h4 className={classes.description}>
                         Trudy would love to hear from you. For any reason.
-If could be about her private coaching, to find out about her starting your own business from home with DoTerra essential oils, purchasing DoTerra Oils for your own potential health enhancement, setting up a live speaking engagement, more about her book, or any other reason.
-You can use the form on this page or if you prefer you can send a direct email here. Trudy should get back to you within 48 hours.
+It could be about private coaching, to find out about starting your own business from home with doTerra essential oils, purchasing doTerra oils for your own potential health enhancement, setting up a live speaking engagement, more about her book, or any other reason.
+You can use the form on this page or if you prefer you can send a direct email. Trudy should get back to you within 48 hours.
                       </h4>
           <fieldset>
             <input placeholder="Your name" name="name"type="text" tabindex="1" required autofocus/>
@@ -225,20 +225,20 @@ You can use the form on this page or if you prefer you can send a direct email h
                         <hr/><br/>
                         Learn More at doTerra at
 
-                        <a href="my.doterra.com/trudyd">
+                        <a className="text-center"href="http://my.doterra.com/trudyd">
                         <Button color="warning">
                            my.doterra.com/trudyd
                         </Button>
                         </a><br/>
                         {' '}Or{' '}<hr/><br/>
                         get CTFO CBD oil here at
-                          <a href="http://trudyd.MyCTFOCBD.com">
+                          <a className="text-center" href="http://trudyd.MyCTFOCBD.com">
                           <Button color="danger">
                              trudyd.MyCTFOCBD.com
                           </Button>
                           </a>
-                          <hr/><br/> And Get A Copy Of
-                          <a href="/e-commerce">
+                          <hr/><br/><span className="text-center" style={{display:"block",textAlign:"center"}}>And Get A Copy Of :</span> 
+                          <a className="text-center" href="/e-commerce">
                           <Button size="lg" fullWidth color="success">"Be Your Own Spiritual Nurse"</Button></a>
                       </p>
                     }
