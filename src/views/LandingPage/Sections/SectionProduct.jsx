@@ -50,7 +50,7 @@ class SectionProduct extends React.Component {
             <GridItem xs={12} sm={4} md={4}>
               <InfoArea
                 title="Well Being"
-                description="Health and Well Being is a journey my book will help you discover that journey and enrich your life as a result"
+                description="Health and well being are a journey. My book will help you discover that journey and enrich your life as a result."
                 icon={VerifiedUser}
                 iconColor="primary"
                 vertical

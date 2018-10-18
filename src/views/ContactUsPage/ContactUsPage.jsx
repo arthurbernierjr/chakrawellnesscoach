@@ -190,11 +190,21 @@ class ContactUsPage extends React.Component {
                   <GridContainer justify="center">
                     <GridItem cs={12} sm={8} md={8}>
                       <h2 className={classes.title}>Send Trudy A Message</h2>
-                      <h4 className={classes.description}>
-                        Trudy would love to hear from you. For any reason.
-It could be about private coaching, to find out about starting your own business from home with doTerra essential oils, purchasing doTerra oils for your own potential health enhancement, setting up a live speaking engagement, more about her book, or any other reason.
-You can use the form on this page or if you prefer you can send a direct email. Trudy should get back to you within 48 hours.
-                      </h4>
+
+                      <div>
+                        <h3 className="text-center title">Trudy would love to hear from you. For any reason.
+It could be about:</h3><br/>
+<ul>
+<li>Private coaching</li>
+<li>Starting your own business</li>
+<li>Purchasing doTerra oils</li>
+<li>Setting up a live speaking engagement</li>
+<li>Learn more about her book</li>
+<li>Or any other reason</li><br/>
+</ul>
+<div className="text-center title">You can use the form on this page or if you prefer you can send a direct email. Trudy should get back to you within 48 hours.</div>
+</div><br/><hr/><br/>
+
           <fieldset>
             <input placeholder="Your name" name="name"type="text" tabindex="1" required autofocus/>
           </fieldset>
@@ -237,7 +247,7 @@ You can use the form on this page or if you prefer you can send a direct email. 
                              trudyd.MyCTFOCBD.com
                           </Button>
                           </a>
-                          <hr/><br/><span className="text-center" style={{display:"block",textAlign:"center"}}>And Get A Copy Of :</span> 
+                          <hr/><br/><span className="text-center" style={{display:"block",textAlign:"center"}}>And Get A Copy Of :</span>
                           <a className="text-center" href="/e-commerce">
                           <Button size="lg" fullWidth color="success">"Be Your Own Spiritual Nurse"</Button></a>
                       </p>

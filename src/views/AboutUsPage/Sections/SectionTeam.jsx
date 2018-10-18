@@ -50,7 +50,8 @@ function SectionTeam(props) {
             <CardBody plain>
               <h3 className={classes.cardTitle}>Trudy Dintzner</h3>
               <h4 className={classes.textMuted}>Author, Ph.D, Registered Nurse</h4>
-              <h5 className={classes.cardDescription}>Trudy Dintzner, PhD, RN, has been a nurse and administrator for over twenty years working in a hospital environment. Her interest is not only in the area of traditional Western medicine but other healing arenas of: Chakras, essential oils, and mind body integration. Her first book is her beginning step into the wide world of spiritual, body, energy integration and more. Read her book to learn more about these fascinating topics. And to learn how you can potentially help yourself, your family, friends, and others, have better mental, physical, spiritual, health. While having fun too!</h5><br/>
+              <h5 className={classes.cardDescription}>Trudy Dintzner, PhD, RN, has been a nurse and administrator for over twenty years working in a hospital environment. Her interest is not only in the area of traditional Western medicine but other healing arenas of: Chakras, essential oils, and mind body integration. Her first book is her beginning step into the wide world of spiritual, body, energy integration and more.
+              Read her book to learn more about these fascinating topics and how you can potentially help yourself, your family, friends, and others, to have better mental, physical, spiritual, health—while having fun too!</h5><br/>
               <p className={classes.cardDescription}>
                 The body’s energy centers are the keys to understanding how and why we feel as we do. Let me show you how.
               </p>
