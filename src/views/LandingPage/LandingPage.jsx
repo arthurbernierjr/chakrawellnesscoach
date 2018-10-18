@@ -71,6 +71,7 @@ class LandingPage extends React.Component {
           <div className={classes.container}>
             <SectionWork />
             <SectionProduct />
+            
           </div>
           <SectionCarousel />
           <SectionWork />
