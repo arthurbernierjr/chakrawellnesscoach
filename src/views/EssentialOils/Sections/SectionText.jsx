@@ -34,7 +34,7 @@ function SectionText({ ...props }) {
                           Modern medicine comes from plant medicine.
                           Essential oils are not all created equal in purity and
                            potency.
-                         Essential oils are safe for pregnant women, children,
+                         Some essential oils are safe for pregnant women, children,
                          infants,  and animals.
 You can enhance your health on all levels with essential oils and even reduce or get rid of the pharmaceuticals you use now.
           </p>

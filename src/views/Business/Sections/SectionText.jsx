@@ -60,7 +60,7 @@ You can also be compensated for sharing.  Everyone can benefit from these produc
             Whether you want to:
       1) Get your products paid for<br/>
       2) Supplement your income with a part time business<br/>
-      3) Multiply your income— - and let your current job go—with a full time business<br/>
+      3) Multiply your income - and let your current job go - with a full time business from home  <br/>
           </p>
           <p>
             I will show you how—it’s easier than you think!!
@@ -80,7 +80,7 @@ You can also be compensated for sharing.  Everyone can benefit from these produc
                 <hr/><br/>
                 Learn More at doTerra at
 
-                <a href="my.doterra.com/trudyd">
+                <a href="http://my.doterra.com/trudyd">
                 <Button color="warning">
                    my.doterra.com/trudyd
                 </Button>

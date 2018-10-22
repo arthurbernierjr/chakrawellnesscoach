@@ -197,12 +197,13 @@ It could be about:</h3><br/>
 <ul>
 <li>Private coaching</li>
 <li>Starting your own business</li>
-<li>Purchasing doTerra oils</li>
+<li>Purchasing doTERRA oils</li>
+<li>Purchasing CTFO CBD oils</li>
 <li>Setting up a live speaking engagement</li>
 <li>Learn more about her book</li>
 <li>Or any other reason</li><br/>
 </ul>
-<div className="text-center title">You can use the form on this page or if you prefer you can send a direct email. Trudy should get back to you within 48 hours.</div>
+<div className="text-center title">You can use the form on this page or if you prefer you can send a direct <a href="mailto:chimom202@gmail.com"> email here</a>. Trudy should get back to you within 48 hours.</div>
 </div><br/><hr/><br/>
 
           <fieldset>
@@ -249,7 +250,7 @@ It could be about:</h3><br/>
                           </a>
                           <hr/><br/><span className="text-center" style={{display:"block",textAlign:"center"}}>And Get A Copy Of :</span>
                           <a className="text-center" href="/e-commerce">
-                          <Button size="lg" fullWidth color="success">"Be Your Own Spiritual Nurse"</Button></a>
+                          <Button size="lg" fullWidth color="success"><span className="text-center">"Be Your Own Spiritual Nurse"</span></Button></a>
                       </p>
                     }
                     icon={BusinessCenter}
