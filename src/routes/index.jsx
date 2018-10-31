@@ -16,6 +16,9 @@ import SignupPage from "views/SignupPage/SignupPage.jsx";
 import SpiritualNurse from "views/SpiritualNurse/index.jsx";
 import EssentialOils from "views/EssentialOils/index.jsx";
 import Business from "views/Business/index.jsx";
+import FreeReport from "views/salesfunnel/FreeReport.jsx";
+import Confirm from "views/salesfunnel/Confirm.jsx";
+import ThankYou from "views/salesfunnel/ThankYou.jsx";
 
 var indexRoutes = [
   {
@@ -103,6 +106,20 @@ var indexRoutes = [
     name: "EssentialOils",
     component: EssentialOils
   },
+  {
+    path: "/free-report",
+    name: "FreeReport",
+    component: FreeReport
+  },
+  {
+      path: "/confirm",
+      name: "Confirm",
+      component: Confirm
+    },  {
+        path: "/thankyou",
+        name: "ThankYou",
+        component: ThankYou
+      },
   {
     path: "/",
     name: "LandingPage",
