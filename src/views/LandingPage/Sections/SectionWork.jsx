@@ -23,9 +23,9 @@ class SectionWork extends React.Component {
         <form className="form-group newsletter-subscribe" role="form" id="contact" name="contactform" method="post" action="https://progressandfortune.com/trudy/assets/contact-form-handler.php">
         <GridContainer justify="center">
           <GridItem cs={12} sm={8} md={8}>
-            <h2 className={classes.title}>Get On The Pre-Order List</h2>
+            <h2 className={classes.title}>Get Your Book Now</h2>
             <h4 className={classes.description}>
-              Pre Order Your Copy of <em>Be Your Own Spiritual Nurse</em> and get a free gift for being a part of our family.
+              Order Your Copy of <em>Be Your Own Spiritual Nurse</em> and get a free gift for being a part of our family.
             </h4>
 
 {/*
