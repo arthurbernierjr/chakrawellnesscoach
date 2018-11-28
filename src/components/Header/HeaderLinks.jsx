@@ -147,8 +147,26 @@ function HeaderLinks({ ...props
             </Link>
           ]}
         />
+        <ListItem className={classes.listItem}>
+          <CustomDropdown
+            noLiPadding
+            navDropdown
+            hoverColor={dropdownHoverColor}
+            buttonText="Report"
+            buttonProps={{
+              className: classes.navLink,
+              color: "transparent"
+            }}
+            buttonIcon={Call}
+            dropdownList={[
+              <a href="http://trudydintzner.com/freegift" className={classes.dropdownLink}>
+                <AccountBalance className={classes.dropdownIcons} /> Free Exclusive Bonus Report
+              </a>
+            ]}
+          />
+        </ListItem>
       </ListItem>
-      <a href="/e-commerce">
+      <Link to="/e-commerce">
       <ListItem className={classes.listItem}>
         <Button
           color={window.innerWidth < 960 ? "white" : "primary"}
@@ -160,7 +178,7 @@ function HeaderLinks({ ...props
         </Link>
         </Button>
       </ListItem>
-    </a>
+    </Link>
     </List>
   );
 }
