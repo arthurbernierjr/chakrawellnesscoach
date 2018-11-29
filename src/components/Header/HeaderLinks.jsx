@@ -147,6 +147,7 @@ function HeaderLinks({ ...props
             </Link>
           ]}
         />
+        </ListItem>
         <ListItem className={classes.listItem}>
           <CustomDropdown
             noLiPadding
@@ -157,7 +158,7 @@ function HeaderLinks({ ...props
               className: classes.navLink,
               color: "transparent"
             }}
-            buttonIcon={Call}
+            buttonIcon={ArtTrack}
             dropdownList={[
               <a href="http://trudydintzner.com/freegift" className={classes.dropdownLink}>
                 <AccountBalance className={classes.dropdownIcons} /> Free Exclusive Bonus Report
@@ -165,7 +166,7 @@ function HeaderLinks({ ...props
             ]}
           />
         </ListItem>
-      </ListItem>
+
       <Link to="/e-commerce">
       <ListItem className={classes.listItem}>
         <Button
