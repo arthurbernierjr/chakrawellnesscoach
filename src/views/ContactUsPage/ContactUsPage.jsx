@@ -203,7 +203,7 @@ It could be about:</h3><br/>
 <li>Learn more about her book</li>
 <li>Or any other reason</li><br/>
 </ul>
-<div className="text-center title">You can use the form on this page or if you prefer you can send a direct <a href="mailto:trudy@chakrawellnesscoach.com"> email here</a>. Trudy should get back to you within 48 hours.</div>
+<div className="text-center title">You can use the form on this page or if you prefer you can send a direct <a href="mailto:trudy@trudydintzner.com"> email here</a>. Trudy should get back to you within 48 hours.</div>
 </div><br/><hr/><br/>
 
           <fieldset>
