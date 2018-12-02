@@ -1,6 +1,7 @@
 import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
+import {Link} from "react-router-dom";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 //import List from "@material-ui/core/List";
@@ -19,6 +20,7 @@ import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
+import LbImage from "./LbImage";
 
 import landingPageStyle from "assets/jss/material-kit-pro-react/views/landingPageStyle.jsx";
 
@@ -41,21 +43,26 @@ class FreeReport extends React.Component {
       <div>
         <Parallax image={require("assets/img/main-imgs/secret.jpg")} filter="primary" >
           <div className={`${classes.container}`}>
-            <GridContainer >
-              <GridItem  xs={12} sm={12} md={12}>
-                <h1 className={classes.title} style={{display:"flex", justifyContent:"center",textAlign:"center", fontSize: "4rem"}}>This Was Almost A Secret....</h1>
-                <h3 style={{display:"flex", textAlign:"center",justifyContent:"center"}}>
-                Get a Secret Chapter For Free...Held Back From My Book<br/> 'Be Your Own Spiritual Nurse'...<br/>Plus, Special Offers & More...
-Just give us your name & email address...no debit or credit card needed at all
-                </h3>
-                <br />
-
-              </GridItem>
-            </GridContainer>
+          <GridContainer >
+            <GridItem  xs={12} sm={12} md={12}>
+              <LbImage/>
+            </GridItem>
+          </GridContainer>
           </div>
         </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
+          <GridContainer >
+            <GridItem  xs={12} sm={12} md={12}>
+              <h1 className={classes.title} style={{display:"flex", justifyContent:"center",textAlign:"center", fontSize: "4rem",color:`purple`}}>This Was Almost A Secret....</h1>
+              <h3 style={{display:"flex", textAlign:"center",justifyContent:"center", color:`purple`}}>
+              Get a Secret Chapter For Free...Held Back From My Book<br/> 'Be Your Own Spiritual Nurse'...<br/>Plus, Special Offers & More...
+Just give us your name & email address...no debit or credit card needed at all
+              </h3>
+              <br />
+
+            </GridItem>
+          </GridContainer>
           <CaptureForm />
           </div>
         </div>
@@ -66,28 +73,12 @@ Just give us your name & email address...no debit or credit card needed at all
               <div className={classes.left}>
                 <List className={classes.list}>
                   <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="/"
+                    <Link
+                      to="/"
                       className={classes.block}
                     >
                       Trudy Dintzner
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="/about-us"
-                      className={classes.block}
-                    >
-                      About us
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="/contact-us"
-                      className={classes.block}
-                    >
-                      Contact Us
-                    </a>
+                    </Link>
                   </ListItem>
                 </List>
               </div>

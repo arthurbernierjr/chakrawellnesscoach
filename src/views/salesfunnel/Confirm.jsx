@@ -32,7 +32,7 @@ class Confirm extends React.Component {
       <div>
         <Header
           brand="Trudy Dintzner"
-          links={<HeaderLinks dropdownHoverColor="info" />}
+          links={" "}
           fixed
           color="transparent"
           changeColorOnScroll={{
@@ -44,7 +44,7 @@ class Confirm extends React.Component {
           <div className={classes.container}>
             <GridContainer justify="center">
               <GridItem md={8} className={classes.textCenter}>
-
+              <h1 className={classes.title}>Your Free Report<br/> Is On It's Way...</h1>
               </GridItem>
             </GridContainer>
           </div>
@@ -71,22 +71,6 @@ class Confirm extends React.Component {
                       className={classes.block}
                     >
                       Trudy Dintzner
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="/about-us"
-                      className={classes.block}
-                    >
-                      About us
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="/contact-us"
-                      className={classes.block}
-                    >
-                      Contact Us
                     </a>
                   </ListItem>
                 </List>

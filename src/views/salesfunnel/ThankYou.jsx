@@ -40,7 +40,7 @@ class ThankYou extends React.Component {
       <div>
         <Header
           brand="Trudy Dintzner"
-          links={<HeaderLinks dropdownHoverColor="info" />}
+          links={" "}
           fixed
           color="transparent"
           changeColorOnScroll={{
@@ -65,7 +65,7 @@ class ThankYou extends React.Component {
           </h1>
           <br />
           <GridContainer style={{display:"flex", justifyContent:"center"}}>
-  <a href="https://www.dropbox.com/s/97x5eeentc43997/Be%20Your%20Own%20Spiritual%20Nurse%20Bonus%20Chapter_3065.pdf?dl=0" className=""><Button><div><span>Download Your Report</span></div></Button></a>
+  <a href="https://www.dropbox.com/s/6m2uwzukh464hov/Be_Your_Own_Spiritual_Nurse_Bonus_Chapter.pdf?dl=0" className=""><Button><div><span>Download Your Report</span></div></Button></a>
 
           </GridContainer>
 
@@ -91,22 +91,6 @@ class ThankYou extends React.Component {
                       className={classes.block}
                     >
                       Trudy Dintzner
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="/about-us"
-                      className={classes.block}
-                    >
-                      About us
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="/contact-us"
-                      className={classes.block}
-                    >
-                      Contact Us
                     </a>
                   </ListItem>
                 </List>

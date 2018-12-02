@@ -21,93 +21,8 @@ import Confirm from "views/salesfunnel/Confirm.jsx";
 import ThankYou from "views/salesfunnel/ThankYou.jsx";
 
 var indexRoutes = [
-  {
-    path: "/about-us",
-    name: "AboutUsPage",
-    component: AboutUsPage
-  },
-  {
-    path: "/blog-post",
-    name: "BlogPostPage",
-    component: BlogPostPage
-  },
-  {
-    path: "/blog-posts",
-    name: "BlogPostsPage",
-    component: BlogPostsPage
-  },
-  {
-    path: "/components",
-    name: "Components",
-    component: ComponentsPage
-  },
-  {
-    path: "/contact-us",
-    name: "ContactUsPage",
-    component: ContactUsPage
-  },
-  {
-    path: "/ecommerce-page",
-    name: "EcommercePage",
-    component: EcommercePage
-  },
-  {
-    path: "/landing-page",
-    name: "LandingPage",
-    component: LandingPage
-  },
-  {
-    path: "/login-page",
-    name: "LoginPage",
-    component: LoginPage
-  },
-  {
-    path: "/pricing",
-    name: "PricingPage",
-    component: PricingPage
-  },
-  {
-    path: "/profile-page",
-    name: "ProfilePage",
-    component: ProfilePage
-  },
-  {
-    path: "/e-commerce",
-    name: "ProductPage",
-    component: ProductPage
-  },
-  {
-    path: "/sections",
-    name: "SectionsPage",
-    component: SectionsPage
-  },
-  {
-    path: "/shopping-cart-page",
-    name: "ShoppingCartPage",
-    component: ShoppingCartPage
-  },
-  {
-    path: "/signup-page",
-    name: "SignupPage",
-    component: SignupPage
-  },
-  {
-    path: "/business",
-    name: "Business",
-    component: Business
-  },
-  {
-    path: "/spiritual-nurse",
-    name: "SpiritualNurse",
-    component: SpiritualNurse
-  },
-  {
-    path: "/essential-oils",
-    name: "EssentialOils",
-    component: EssentialOils
-  },
-  {
-    path: "/free-report",
+{
+    path: "/freegift",
     name: "FreeReport",
     component: FreeReport
   },
@@ -122,8 +37,8 @@ var indexRoutes = [
       },
   {
     path: "/",
-    name: "LandingPage",
-    component: LandingPage
+    name: "freegift",
+    component: FreeReport
   }
 ];
 

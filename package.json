@@ -2,7 +2,9 @@
   "name": "material-kit-pro-react",
   "version": "1.2.0",
   "private": true,
-  "engines" : { "node" : "10.13" } ,
+  "engines": {
+    "node": "10.13"
+  },
   "dependencies": {
     "@material-ui/core": "3.1.1",
     "@material-ui/icons": "3.0.1",
