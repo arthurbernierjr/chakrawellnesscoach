@@ -90,7 +90,16 @@ class AboutUsPage extends React.Component {
                          trudyd.MyCTFOCBD.com
                       </Button>
                       </a>
-                      <hr/><br/> And Get A Copy Of
+                      <br/>
+                      {' '}Or{' '}<hr/><br/>
+                      get Fuxion healthy beverages here at
+                        <a className="text-center" href="http://iamfuxion.net/trudydintzner">
+                        <Button color="rose">
+                           iamfuxion.net/trudydintzner
+                        </Button>
+                        </a>
+                        <hr/><br/>
+                       And Get A Copy Of
                       <a href="/e-commerce">
                       <Button size="lg" fullWidth color="success">"Be Your Own Spiritual Nurse"</Button></a>
                   </p>

@@ -248,7 +248,16 @@ It could be about:</h3><br/>
                              trudyd.MyCTFOCBD.com
                           </Button>
                           </a>
-                          <hr/><br/><span className="text-center" style={{display:"block",textAlign:"center"}}>And Get A Copy Of :</span>
+                          <hr/><br/>
+                          <br/>
+                          {' '}Or{' '}<hr/><br/>
+                          get Fuxion healthy beverages here at
+                            <a className="text-center" href="http://iamfuxion.net/trudydintzner">
+                            <Button color="rose">
+                               iamfuxion.net/trudydintzner 
+                            </Button>
+                            </a>
+                            <hr/><br/><span className="text-center" style={{display:"block",textAlign:"center"}}>And Get A Copy Of :</span>
                           <a className="text-center" href="/e-commerce">
                           <Button size="lg" fullWidth color="success"><span className="text-center">"Be Your Own Spiritual Nurse"</span></Button></a>
                       </p>
@@ -261,7 +270,7 @@ It could be about:</h3><br/>
             </div>
           </div>
         </div>
-        
+
         <Footer
           // theme="dark"
           content={
