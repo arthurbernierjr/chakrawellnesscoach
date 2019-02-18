@@ -61,7 +61,7 @@ class ThankYou extends React.Component {
         <Card>
         <CardHeader>
           <h1 style={{textAlign:"center"}}>
-          Thank You For Requesting A Copy Of My Secret Chapter.<br/> Your download link is below. Also learn more about why you should order my book below.
+          Thank You For Requesting A Copy Of My Secret Chapter.<br/> Your download link is below.<br/> Also learn more about why you should order my book below.
           </h1>
           <br />
           <GridContainer style={{display:"flex", justifyContent:"center"}}>
